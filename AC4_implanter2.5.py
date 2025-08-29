@@ -5,10 +5,19 @@ import re
 import ffmpeg
 import os
 
+'''
+EN:
+This is the last version without UI, and it is also the core code
+ But it does not have the ability to automatically configure FFmpeg and automatically detect GPU encoding and acceleration.
+CN:
+这是没有UI的最后一个版本，也是核心代码.但是它没有自动配置FFmpeg和自动检测GPU编码和加速的功能。
+'''
+
 root_path = os.path.split(os.path.realpath(__file__))[0] + '\\'
+config_file = 'DJI Action.config'
 
 # 读取配置文件
-with open(root_path + 'config.json', 'r', encoding='utf-8') as f:
+with open(root_path + config_file, 'r', encoding='utf-8') as f:
     config = json.load(f)
 
 resolution = config['resolution']              # 输出视频分辨率
@@ -117,3 +126,4 @@ output_path = config['v_output_path']
 Automatic_sorting_execution(Cam_directory, in_directory, output_path, start_index=set_start_index)
 
 print("视频压缩和黑屏视频创建完成")
+
