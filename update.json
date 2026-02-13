@@ -1,0 +1,11 @@
+{
+  "app": "CPVC",
+  "latest": "4.0.1",
+  "published": "2026-02-13",
+  "notes": [
+    "修复：xxx",
+    "新增：yyy",
+    "优化：zzz"
+  ],
+  "download_page": ["",""]
+}
