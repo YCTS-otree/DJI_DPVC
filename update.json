@@ -3,9 +3,13 @@
   "latest": "4.0.1",
   "published": "2026-02-13",
   "notes": [
-    "修复：xxx",
+    "测试包~",
     "新增：yyy",
     "优化：zzz"
   ],
-  "download_page": ["",""]
+  "download_pages": [
+    "https://gitee.com/otreee/DJI_DPVC/releases/latest",
+    "https://github.com/YCTS-otree/DJI_DPVC/releases/latest"
+  ],
+  "min_supported": "1.0.0"
 }
