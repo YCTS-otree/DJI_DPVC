@@ -1,7 +1,7 @@
 {
   "app": "CPVC",
   "latest": "4.0.1",
-  "latest_size": "35.1MB"
+  "latest_size": "35.1MB",
   "published": "2026-02-13",
   "notes": [
     "新增硬件加速编码：支持 NVIDIA NVENC 和 Intel QSV 硬件编码，自动选择最快的加速方式，并在按钮上显示当前模式。",
