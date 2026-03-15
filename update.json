@@ -1,12 +1,13 @@
 {
   "app": "CPVC",
-  "latest": "4.0.1",
+  "latest": "4.0.2",
   "latest_size": "35.1MB",
-  "published": "2026-02-16",
+  "published": "2026-03-15",
   "notes": [
-    "新增多比例适配，可以自动适配各种分辨率和比例，支持竖屏",
+    "解决了intel 显卡编码问题（intel是傻逼！！！显卡和驱动做的依托答辩，同一套代码不同CPU还能炸，真的服了）",
     "加强了鲁棒性，防止用户“在酒吧里点炒饭”",
-    "修复了一些BUG"
+    "修复了一些BUG",
+    "更多更新详见更新发布页（点击下方跳转）"
   ],
   "download_pages": [
     "https://gitee.com/otreee/DJI_DPVC/releases/latest",
